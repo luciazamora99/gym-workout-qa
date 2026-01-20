@@ -1,4 +1,4 @@
-**# Test Plan – Gym Workout Web App**
+# Test Plan – Gym Workout Web App
 
 ## 1. Objective
 The objective of this test plan is to verify that the Gym Workout web application works correctly and provides a consistent and user-friendly experience.
