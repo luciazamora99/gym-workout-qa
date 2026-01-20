@@ -1,16 +1,31 @@
-**# Test Summary Report**
+# Bug Reports
 
-## Test Execution Summary
-- Total test cases: 13
-- Passed: 11
-- Failed: 2
-- Blocked: 0
+## BUG-01
 
-## Defects Summary
-- Total defects found: 1
-- Severity: Low
-- Priority: Medium
+**Title:** Pop-up content alignment and layout inconsistency  
 
-## Conclusion
-The application is functionally stable and all main features work as expected. 
-A visual layout issue was identified in pop-up components, affecting content alignment consistency.
+**Related Test Cases:** TC-08, TC-09  
+
+**Environment:**  
+- Browser: Edge
+- OS: Windows 11 Home
+- Device: Desktop  
+
+**Severity:** Low  
+**Priority:** Medium  
+
+### Description
+The content inside the pop-up is visually misaligned in relation to the title. 
+This issue occurs consistently across all routine and recipe pop-ups, indicating a global layout problem.
+
+### Steps to Reproduce
+1. Open the Home page
+2. Click on any "Ver rutina" button
+3. Observe the spacing between the title and the content
+4. Repeat the same steps for other days or recipes
+
+### Actual Result
+The content appears too far from the title, creating inconsistent spacing and visual misalignment.
+
+### Expected Result
+The content should be properly aligned and evenly spaced relative to the title across all pop-ups.
